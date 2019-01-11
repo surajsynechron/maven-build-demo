@@ -1,0 +1,6 @@
+- hosts: web
+  tasks:
+    - name: creating a user
+      user:
+        name: synechron
+        state: present
